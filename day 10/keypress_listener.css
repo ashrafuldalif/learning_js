@@ -1,0 +1,48 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: gray;
+}
+
+@keyframes selected {
+    0%{
+        box-shadow: 0 0 10px 1px greenyellow; 
+    }
+    50%{
+        box-shadow: 0 0 30px 3px yellow;
+    }
+    100%{
+        box-shadow: 0 0 20 2px rgb(212, 255, 19);
+    }
+}
+.button{
+    
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    border-radius: 10px;
+    background-color:#85c085;
+    box-shadow: 0 10px 1px #446d48;
+    font-size: 24px;
+    font-weight: 650;
+    margin: 25px 0 10px 20px  ;
+    margin-top: 20px;
+    transform: rotateX(35deg) translate(0);
+    transition: all .2s ease-in-out ;
+}
+
+.button:active{
+
+    transform: rotateX(40deg) translateY(10px);
+    box-shadow: none;
+    
+}
+.s{
+    animation: selected 2s ease-in-out 0s infinite alternate ;
+}

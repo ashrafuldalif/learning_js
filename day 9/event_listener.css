@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+button{
+    height: 40px;
+    width: 130px;
+    margin: 30px;
+    background-color: #3876BF;
+    box-shadow: 0 6px 0 #192655 ;
+    border: 2px rgba(255, 255, 255, 0) solid;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+button:hover{
+transform: translateY(-1px);
+}
+button:active{
+    box-shadow: none ;
+    transform:  translateY(5px);
+}
+
+
+.first-style{
+
+color: rgb(255, 196, 0);
+}
+.second-style{
+color: silver;
+text-underline-offset: 2px black;
+}
+.third-style{
+color: green;
+}

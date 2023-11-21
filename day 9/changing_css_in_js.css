@@ -1,0 +1,35 @@
+@font-face{
+    font-family: spiderman;
+    src: url(homeComing.ttf);
+}
+
+@font-face{
+    font-family: logos;
+    src: url(hero-logos.ttf);
+}
+span{
+    color:  rgba(255, 255, 255, 0);
+    text-shadow: none;
+}
+.background{
+    background-color: rgb(255, 207, 130);
+}
+.p-style{
+font-size: 3rem;
+font-weight:750 ;
+color: rgb(255, 0, 0);
+text-shadow: 4px 4px 10px rgb(255, 255, 255);
+
+}
+.spiderman-style,.spiderman-style span{
+
+    font-size: 3rem;
+    color: red;
+    font-family:  spiderman;
+    font-weight: 620;
+    letter-spacing: .5rem;
+    text-shadow: 5px 3px  rgb(0, 13, 255);
+}
+.spiderman-style span {
+    font-family:logos ;
+}

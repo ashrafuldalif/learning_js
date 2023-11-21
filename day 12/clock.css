@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.godFather{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right ,#df4173  , #25309a );
+}
+.outer{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.outerOfBtn{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 60px;
+    width: 120px;
+    font-weight: 650;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 1px black;
+    background-image:linear-gradient(to right ,#EA8D8D , #A890FE);
+    box-shadow:6.5px 6.5px 10px 3.5px black ;
+    transition: all .3s ease-in-out 0s normal;
+    
+}
+.btn:active{
+    box-shadow: none;
+    transform: translate(4px,6px) scale(0.85);
+}
+.s{
+    margin: 20px 5px;
+    font-size: 5rem;
+    width: 100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.606);
+    border-radius: 10px;
+    text-shadow: 3px 3px black;
+}
+.don{
+    margin: 20px 5px;
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, 0.888);
+    text-shadow: 3px 3px black;
+    text-align: center;
+    position: relative;
+    bottom: 6px;
+}
+.ampm{
+    border-radius: 15px;
+    height: 95px;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pause,.play,.reset{
+    margin :20px 30px;
+}
+.show{
+    border: 1px solid rgba(255, 255, 255, 0.691);
+}

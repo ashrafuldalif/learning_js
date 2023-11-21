@@ -1,0 +1,71 @@
+        h1{
+            margin-bottom: 20px;
+        }
+        button{
+            margin: 30px;
+            height: 40px;
+            width: 100px;
+            border: 2px solid rgba(0, 0, 0, 0);
+            border-radius: 20px;
+            font-size: 1.5rem;
+            font-weight: 550;
+            box-shadow: 5px 5px 10px 0px black;
+            transition: all .1s ease 0s normal;
+        }
+        button:active{
+            transform: translate(5px,5px);
+            box-shadow: none;
+        }
+        .abijabi{
+            display: flex;
+            align-items: center;
+        }
+        .tof{
+        
+            font-weight: 100;
+            margin-left: 50px;
+            transform: scale(1.5);
+        }
+        @keyframes blink {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+                
+            }
+        }
+        .timing{
+            font-size: 2rem;
+            height:70px;
+            width: 70px;
+            margin: 0px 55px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 45%;
+            border: 2px solid rgba(0, 0, 0, 0);
+            font-weight: 650;
+            text-shadow: 1px 1px 7px rgb(255, 238, 0);
+            border-top:4px solid rgb(113, 113, 113);    
+            border-bottom:4px solid rgb(112, 112, 112);    
+            animation: blink 1s linear 0s infinite normal;
+            background-color: rgba(149, 149, 149, 0);
+        }
+        .iof{    font-size: 2rem;
+            height:50px;
+            width: 50px;
+            margin: 0px 55px;
+            position: absolute;
+            left: 20px;
+            top: 375px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 650;
+        z-index: 2;
+        }
+        .size{
+        visibility: hidden;
+        }

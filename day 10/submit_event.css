@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: rgb(122, 142, 172);
+}
+
+div {
+    margin-top: 20px;
+    /* width: 52vw; */
+}
+
+
+label {
+    width: 5px; /* Adjust label width as needed */
+    margin-right: 10px; /* Optional margin between label and input */
+    font-size: 22px;
+    font-weight: 600;
+    display: inline;
+}
+
+.inputss {
+    flex-grow: 1;
+    height: 25px;
+padding: 10px 0 10px 20px ;
+border: 2px solid rgba(128, 128, 128, 0.603);
+outline: none;
+margin-left: 24px;
+border-radius: 5px;
+font-size: 16px;
+}
+.email{
+    margin-left: 58px;
+}
+
+.name{
+    margin-left: 65px;
+}
+.inputss:focus{
+    outline: 2px solid rgba(182, 125, 255, 0.692);
+
+}
+.submit{
+    height: 30px;
+    width: 100px;
+    margin-left: 390px;
+    margin-top: 4vh;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(14, 98, 255);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: 7px 7px 5px 1px rgb(48, 48, 48);
+    transition: all .2s ease-in-out 0s ;
+
+}
+.submit:active{
+    box-shadow: none;
+    transform: translate(7px,7px);
+}

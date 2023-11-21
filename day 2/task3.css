@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+label p{
+    margin:20px 0px 0px 20px;
+}
+input{
+    margin: 10px 0px 0px 20px;
+    padding: 3px;
+    outline: none;
+}
+button{
+    height: 22px;
+    width: 80px;
+    margin: 47px 0px 0px 20px;
+}
+#quistions{
+    display: flex;
+
+}
+#result{
+    margin: 25px;
+}

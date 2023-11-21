@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>*{
+        color: white;    
+    }
+        body,html{
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to left ,#13427f , #679ac0);
+        }
+        h1 {
+            font-size: 40px;
+            text-shadow: 5px 5px 5px black;
+        }
+        
+        .outer {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            flex-wrap: wrap;
+        }
+        label,#hint{
+            text-shadow: 3px 3px 2px black;
+        }
+        #hint{
+            font-weight: 100;
+            letter-spacing: .2.5rem;
+            margin-left:40px;
+        }
+        .input,.enter{
+            margin-left: 30px;
+            height: 30px;
+            width: 100px;
+            padding: 0 20px 0 10px;
+            outline: none;
+        border: 2px solid rgb(97, 158, 201);
+        border-right: none;
+        background-color: #537895;
+        border-radius:8px 0 0 8px;
+        color: white;
+    }
+    .enter{
+        margin-left: 0;
+        
+        width: 60px;
+        height: 34px;
+        border-left: none;
+        border-right: 2px solid rgb(97, 158, 201);
+        font-weight: 100;
+        font-size: 16px;
+        background-image: linear-gradient(to left ,#09203F , #537895);
+        border-radius:0 8px 8px 0;
+    }
+    .input:focus{
+    background-image: linear-gradient(to right ,#09203F,#537895);
+    }
+    </style>
+</head>
+<body>
+    <h1>Check console for more info</h1>
+
+    <form id="foromm">
+    <div class="outer">
+        <label>Please input a number in the range of 50 to 100 ::</label>
+        <input type="text" id="input" class="input" />
+        <button type="submit" id="enter" class="enter">Enter</button>
+        <p id="hint"></p>
+    </div>
+    </form>
+    <script src="error_handaling.js"></script>
+</body>
+</html>

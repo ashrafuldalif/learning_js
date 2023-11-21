@@ -1,0 +1,10 @@
+html,body{
+    background-color: rgb(58, 58, 58);
+}
+#vifam{
+    display: grid;
+    place-items: center;
+}
+video{
+    width:  80vw;
+}

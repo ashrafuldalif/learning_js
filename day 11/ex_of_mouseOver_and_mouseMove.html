@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Difference between mouseover, 
+        mouseenter and mousemove events 
+    </title> 
+      
+    <style> 
+        body { 
+            text-align: center; 
+            background-color: gray;
+        } 
+          
+        h1 { 
+            color: rgb(17, 88, 255); 
+        } 
+          
+        div { 
+            margin: 15px 50px 0px 50px; 
+            border: 2px solid black; 
+            padding: 10px; 
+            text-align: center; 
+            background-color: rgb(0, 101, 210); 
+        } 
+          
+        p { 
+            color: white; 
+        } 
+          
+        h3 { 
+            background-color: white; 
+            border-radius: 10px; 
+        } 
+    </style> 
+  
+    <script> 
+        function over(e) { 
+            document.getElementById("sover").innerHTML++; 
+        } 
+  
+        function enter(e) { 
+            document.getElementById("senter").innerHTML++; 
+        } 
+  
+        function move(e) { 
+            document.getElementById("smove").innerHTML++; 
+        } 
+    </script> 
+</head> 
+  
+<body> 
+    <h1>GeeksforGereks</h1> 
+    <h4>Mouseover, Mouseenter and Mousemove Example</h4> 
+    <div class="over" onmouseover="over(this)"> 
+        <h3>Mouseover event triggered:  
+          <span id="sover">0</span>  
+          times 
+        </h3> 
+        <p> 
+          This event occurs every time when the mouse pointer 
+          enters the div element or its child elements 
+          (here <h3> or <p>). 
+        </p> 
+    </div> 
+  
+    <div class="enter" onmouseenter="enter(this)"> 
+        <h3>Mouseenter event triggered: 
+          <span id="senter">0</span> 
+          times 
+        </h3> 
+        <p> 
+          This event occurs only when the mouse pointer enters 
+          the div element. 
+        </p> 
+    </div> 
+  
+    <div class="move" onmousemove="move(this)"> 
+        <h3>Mousemove event triggered:  
+          <span id="smove">0</span>  
+          times 
+        </h3> 
+        <p> 
+          This event occurs every time the mouse pointer is 
+          moved over the div element. 
+        </p> 
+    </div> 
+  
+</body> 
+  
+</html>
