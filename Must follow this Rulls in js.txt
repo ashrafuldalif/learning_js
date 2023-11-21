@@ -1,0 +1,19 @@
+ Best practices 
+
+_!_ use camelCase for naming a variable like firstName ,lastName
+
+_!_ all the vaiable should be declared on the top of the page and you must initialize it with something when you dont have any information you can use EMPTY or 0 
+
+like : 	let firstName="";
+	let age=0; 
+
+_!_ avoid unnecessary variables
+
+_!_ must use default in switch case 
+
+_!_ declare object and array with CONST
+
+_!_ dont use == in checking values use === instade 
+
+_!_ dont access DOM if theres another way find another way first coz its a slow process.
+
