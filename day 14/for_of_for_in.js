@@ -24,3 +24,4 @@ let person={
 for (x in person){
     console.log(`${x} : ${person[x]}`);
 }
+// thanks a lot brothers 
